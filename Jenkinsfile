@@ -23,7 +23,7 @@ pipeline {
     checkout scm
     //sh 'mvn clean test'
    // step([$class: 'Publisher', reportFilenamePattern: '**/testng-results.xml'])
-    writeFile file: 'testng-results.xml', text: '"{\"name\":\"com.slokam.automation.opencart.testscripts - 44\",\"passed\":4,\"failed\":0,\"skipped\":0,\"blocked\":0,\"total\":4,\"startTime\":\"2020-10-26T02:37:57.485Z\",\"finishTime\":\"2020-10-26T02:37:57.489Z\",\"duration\":0.004,\"buildNumber\":45,\"stage\":\"Tests\",\"pipelineName\":\"ScriptedPipelineVK\",\"passingPercent\":100,\"jenkinsUrl\":\"http:\/\/MSJC7FBCA825.local:3000\/jenkins\/job\/ScriptedPipelineVK\/45\/testngreports\/com.slokam.automation.opencart.testscripts\",\"branch\":\"\",\"isMultiBranch\":\"false\"}"'
+    writeFile file: 'testng-results.xml', text: '{\"name\":\"com.slokam.automation.opencart.testscripts - 44\",\"passed\":4,\"failed\":0,\"skipped\":0,\"blocked\":0,\"total\":4,\"startTime\":\"2020-10-26T02:37:57.485Z\",\"finishTime\":\"2020-10-26T02:37:57.489Z\",\"duration\":0.004,\"buildNumber\":44,\"stage\":\"Tests\",\"pipelineName\":\"ScriptedPipelineVK\",\"passingPercent\":100,\"jenkinsUrl\":\"jenkins5\",\"branch\":\"\",\"isMultiBranch\":\"false\"}'
    }
   }
   stage('Deploy'){
