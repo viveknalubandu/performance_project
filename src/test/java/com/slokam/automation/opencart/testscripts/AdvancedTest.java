@@ -18,8 +18,8 @@ public class AdvancedTest {
 		Assert.assertEquals("test", "test");
 	}
   
-  @Test
-	public void advancedMohan2() {
+        @Test
+	public void advancedMohan2() throws Exception{
 		Thread.sleep(50000);
 		Assert.assertEquals("test", "test");
 	}
