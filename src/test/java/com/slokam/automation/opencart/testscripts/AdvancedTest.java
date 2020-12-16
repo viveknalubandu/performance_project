@@ -20,6 +20,7 @@ public class AdvancedTest {
   
   @Test
 	public void advancedMohan2() {
+		Thread.sleep(50000);
 		Assert.assertEquals("test", "test");
 	}
   
